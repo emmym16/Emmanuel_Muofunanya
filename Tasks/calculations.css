@@ -1,8 +1,7 @@
-/* Google Fonts - Poppins */
-@import url("https://fonts.googleapis.com/css2?family=Poopins:wght@300;400;500;600&display=swap");
+
 
 *{
-  font-family: "Poppins", sans-serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
