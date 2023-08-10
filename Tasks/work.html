@@ -13,6 +13,7 @@
         <header>Temprature Checker</header>
         <form action="" class="form">
             <div class="input-box">
+                <input type="text" id="user1"  placeholder="Enter your Temperature Value">
                 <!-- <label for="">Choose Temprature</label> -->
             <div class="select-box">    
                 <select id="user3" name="">
@@ -22,8 +23,7 @@
                     <option value="Kelvin">Kelvin</option>
                 </select>
             </div>     
-                <input type="text" id="user1"  placeholder="Enter your Temperature Value">
-                <!-- <label for="">Choose Temprature</label> -->
+                
             <div class="select-box">    
                 <select id="user4" name="">
                     <option hidden>To</option>
@@ -34,20 +34,10 @@
             </div>     
                 <input type="text" id="user2">
                 <input type="button" value="Submit" onclick="calc()" class="btn"> 
-                <input type="button" value="Reset"  class="btn"> 
+                <input type="button" value="Reset"  class="btn" onclick="reset()"> 
               </form> 
             </div>
         </form>
     </section>
-
-
-
-
-
-
-
-
-
-
 </body>
 </html>
